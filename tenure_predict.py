@@ -288,8 +288,6 @@ x_train.describe()
 
 data_inf = pd.DataFrame(data)
 
-data_inf
-
 inf_pred = model_pipe.predict(data_inf)
 
 data_inf['PredictedTenure'] = inf_pred
